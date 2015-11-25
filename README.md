@@ -24,7 +24,15 @@ LAST UPDATED BY:
 
 ## Summary
 
-A brief summary of the vulnerability, 
+A brief summary of the vulnerability
+
+## Exploitation
+
+A write up on how this vulnerabilit can be exploited with demo code or screen shots
+
+## Capabilities
+
+- List of possible uses for this vulnerability to give real-world uses
 
 ## Detection
 
