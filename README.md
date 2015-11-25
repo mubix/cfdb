@@ -28,7 +28,7 @@ A brief summary of the vulnerability
 
 ## Exploitation
 
-A write up on how this vulnerabilit can be exploited with demo code or screen shots
+A write up on how this vulnerability can be exploited with demo code or screen shots
 
 ## Capabilities
 
