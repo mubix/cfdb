@@ -1,4 +1,4 @@
-# Vulnerability Title
+# Reflective Cross-site Scripting
 
 - LAST UPDATED DATE: 2015/11/25
 - LAST UPDATED BY: @mubix

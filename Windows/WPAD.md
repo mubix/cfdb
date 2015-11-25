@@ -1,6 +1,6 @@
 # WPAD Enabled
 
-- LAST UPDATED DATE: 11/25/2015
+- LAST UPDATED DATE: 2015/11/25
 - LAST UPDATED BY: @mubix
 
 ## Summary
