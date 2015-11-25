@@ -1,4 +1,4 @@
-Copyright (c) 2015, Rob Fuller
+Copyright (c) 2015, Common Findings Database
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
