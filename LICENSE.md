@@ -1,3 +1,7 @@
+# License
+
+Applies to all files within this repository
+
 Copyright (c) 2015, Common Findings Database
 All rights reserved.
 
