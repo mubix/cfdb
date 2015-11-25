@@ -23,11 +23,12 @@ Pass the Hash is
 
 ## References
 
-- https://www.microsoft.com/en-us/download/details.aspx?id=46899
+- Microsoft LAPS: https://www.microsoft.com/en-us/download/details.aspx?id=46899
 
 ## Exploitation
 
 
 ### Dumping hashes from exploited machine then using the hash to access other machines on the network
+
 ```
 ```
