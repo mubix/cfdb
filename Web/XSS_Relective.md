@@ -1,7 +1,7 @@
 # Vulnerability Title
 
-LAST UPDATED DATE: 2015/11/25
-LAST UPDATED BY: @mubix
+- LAST UPDATED DATE: 2015/11/25
+- LAST UPDATED BY: @mubix
 
 ## Summary
 
@@ -20,7 +20,6 @@ for a vulnerability to have one which is beyond the scope of this database.
 - Read files as www-data (or use web server is running as)
 - DDoS service
 - Code execution (for this one to fly there needs to be a refence proving it)
-- 
 
 ## Detection
 

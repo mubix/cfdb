@@ -19,8 +19,8 @@ Our format will be as follows so you can easily copy and paste it to get you sta
 ```
 # Vulnerability Title
 
-LAST UPDATED DATE: 
-LAST UPDATED BY: 
+- LAST UPDATED DATE: 
+- LAST UPDATED BY: 
 
 ## Summary
 
@@ -39,7 +39,6 @@ for a vulnerability to have one which is beyond the scope of this database.
 - Read files as www-data (or use web server is running as)
 - DDoS service
 - Code execution (for this one to fly there needs to be a refence proving it)
-- 
 
 ## Detection
 
