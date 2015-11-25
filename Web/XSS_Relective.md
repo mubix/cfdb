@@ -7,10 +7,6 @@
 
 Cross Site Scripting is 
 
-## Exploitation
-
-A write up on how this vulnerability can be exploited with demo code or screen shots
-
 ## Capabilities and Risk
 
 This is to replace any "level" or "score" becuase of how much context is needed
@@ -35,3 +31,8 @@ What are some of the ways to fix this vulnerability?
 - Link to CVE
 - Link to Metasploit module
 - Link to Nessus/NeXpose/Qualys write up
+
+## Exploitation
+
+A write up on how this vulnerability can be exploited with demo code or screen shots
+
