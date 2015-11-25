@@ -5,34 +5,27 @@
 
 ## Summary
 
-EAP-TLS based authentication is the best form of Wireless security currently available because of the need for a client certificate to authenticate to the wireless.
+EAP-TLS based authentication is the best form of Wireless security currently available because of the need for a client certificate to authenticate to the wireless. However, without addition authentication it is difficult to detect misuse or theft of the client certificate.
 
 ## Capabilities and Risk
 
-This is to replace any "level" or "score" becuase of how much context is needed
-for a vulnerability to have one which is beyond the scope of this database.
-
-- List of possible uses for this vulnerability to give real-world uses
-- Read files as www-data (or use web server is running as)
-- DDoS service
-- Code execution (for this one to fly there needs to be a refence proving it)
+- Theft / Creation of valid certificate used for continued access wireless network
 
 ## Detection
 
-How does one detect the exploitation of this vulnerability, or detect its presence.
+1. Use of of client certificates on multiple IP addresses
+2. Reissuance of certificates with export flag enabled
 
 ## Remediation
 
-What are some of the ways to fix this vulnerability?
+1. Revoke certiicate effected and start investigation into the user(s) effected. Unless re-issued in order to be exportable, administrative access to the machine it is installed on is needed 
 
 ## References
 
-- Link to blog post
-- Link to CVE
-- Link to Metasploit module
-- Link to Nessus/NeXpose/Qualys write up
+- No known documentation of this attack exsists
 
 ## Exploitation
 
-A write up on how this vulnerability can be exploited with demo code or screen shots
-
+```
+Test
+```
