@@ -21,12 +21,13 @@ Wireshark looking for WPAD requests on the wire.
 
 Windows has per-user and per-system proxy settings making this a very difficult setting to fix enterprise wide. 
 
+Using the reference on [http://www.craig-tolley.co.uk/2011/08/30/disable-automatically-detect-settings-in-internet-explorer/](craig-tolley.co.uk) you can set a VB script to run as a Logon Script that will disable this setting.
+
 ## References
 
-- Link to blog post
-- Link to CVE
-- Link to Metasploit module
-- Link to Nessus/NeXpose/Qualys write up
+1. https://www.wikipedia.org/wiki/Web_Proxy_Autodiscovery_Protocol
+2. http://www.netresec.com/?page=Blog&month=2012-07&post=WPAD-Man-in-the-Middle
+3. http://www.craig-tolley.co.uk/2011/08/30/disable-automatically-detect-settings-in-internet-explorer/
 
 ## Exploitation
 
