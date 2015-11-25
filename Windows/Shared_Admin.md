@@ -23,6 +23,7 @@ Pass the Hash is
 
 ## References
 
+- Pass the Hash: https://en.wikipedia.org/wiki/Pass_the_hash
 - Microsoft LAPS: https://www.microsoft.com/en-us/download/details.aspx?id=46899
 
 ## Exploitation
