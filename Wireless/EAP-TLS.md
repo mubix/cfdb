@@ -22,12 +22,13 @@ EAP-TLS based authentication is the best form of Wireless security currently ava
 
 ## References
 
+- Setting up EAP-TLS with Cisco WLC: https://networklessons.com/wireless/peap-and-eap-tls-on-server-2008-and-cisco-wlc/
 - Stealing User certificates with Mimikatz: http://carnal0wnage.attackresearch.com/2012/10/more-with-mimikatz-crypto-module.html
 
 
 ## Exploitation
 
-### Scenario 1 - Exporting Certificate via 
+### Scenario 1 - Exporting Certificate via Mimikatz
 
 ```
 Test
