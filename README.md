@@ -32,7 +32,8 @@ A write up on how this vulnerability can be exploited with demo code or screen s
 
 ## Capabilities and Risk
 
-This is to replace any "level" or "score" becuase of how much context is needed for a vulnerability to have one which is beyond the scope of this database.
+This is to replace any "level" or "score" becuase of how much context is needed
+for a vulnerability to have one which is beyond the scope of this database.
 
 - List of possible uses for this vulnerability to give real-world uses
 - Read files as www-data (or use web server is running as)
