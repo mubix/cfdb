@@ -27,7 +27,7 @@ What are some of the ways to fix this vulnerability?
 
 ## References
 
-- Link to blog post
+- XSS to RCE in Hipchat: http://maustin.net/2015/11/12/hipchat_rce.html
 - Link to CVE
 - Link to Metasploit module
 - Link to Nessus/NeXpose/Qualys write up
