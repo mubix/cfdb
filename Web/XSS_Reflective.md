@@ -5,17 +5,12 @@
 
 ## Summary
 
-Cross Site Scripting is 
+Cross-site scripting (XSS) is a vulnerability that enables attackers to inject client-side code into web applications. 
 
 ## Capabilities and Risk
 
-This is to replace any "level" or "score" becuase of how much context is needed
-for a vulnerability to have one which is beyond the scope of this database.
-
-- List of possible uses for this vulnerability to give real-world uses
-- Read files as www-data (or use web server is running as)
-- DDoS service
-- Code execution (for this one to fly there needs to be a refence proving it)
+- Worst case RCE (see reference for Hipchat below)
+- 
 
 ## Detection
 
@@ -27,7 +22,7 @@ What are some of the ways to fix this vulnerability?
 
 ## References
 
-- Link to blog post
+- XSS to RCE in Hipchat: http://maustin.net/2015/11/12/hipchat_rce.html
 - Link to CVE
 - Link to Metasploit module
 - Link to Nessus/NeXpose/Qualys write up
