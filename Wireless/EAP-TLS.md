@@ -5,7 +5,7 @@
 
 ## Summary
 
-EAP-TLS based authentication is the best form of Wireless security currently available because of the need for a client certificate to authenticate to the wireless. However, without addition authentication it is difficult to detect misuse or theft of the client certificate.
+EAP-TLS based authentication is the best form of Wireless security currently available because of the need for a client certificate to authenticate to the wireless. However, without additional authentication it is difficult to detect misuse or theft of the client certificate.
 
 ## Capabilities and Risk
 
