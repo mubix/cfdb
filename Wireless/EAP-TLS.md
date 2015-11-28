@@ -18,7 +18,7 @@ EAP-TLS based authentication is the best form of Wireless security currently ava
 
 ## Remediation
 
-1. Revoke certiicate effected and start investigation into the user(s) effected. Unless re-issued in order to be exportable, administrative access to the machine it is installed on is needed 
+1. Revoke certiicate effected and start investigation into the user(s) effected. Unless re-issued in order to be exportable, administrative access to the machine it was installed on is needed in order to extract the certificate.
 
 ## References
 
