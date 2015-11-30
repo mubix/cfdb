@@ -19,32 +19,34 @@ If you wish to contribute, you can do so in a couple ways:
 Our format will be as follows so you can easily copy and paste it to get you started (you do not have to include an sections that are not applicable, or that you simply don't want to write):
 
 ```
-# Vulnerability Title
+/*
+Title: Finding Title
+Description: Search engine meta data about the finding
 
 - LAST UPDATED DATE: 
 - LAST UPDATED BY: 
 
 ## Summary
 
-A brief summary of the vulnerability
+A brief summary of the finding
 
 ## Capabilities and Risk
 
-This is to replace any "level" or "score" becuase of how much context is needed
-for a vulnerability to have one which is beyond the scope of this database.
+This is to replace any "level" or "score" because of how much context is needed
+for a finding to have one, which is beyond the scope of this database.
 
-- List of possible uses for this vulnerability to give real-world uses
+- List of possible uses for this finding to give real-world uses
 - Read files as www-data (or use web server is running as)
 - DDoS service
 - Code execution (for this one to fly there needs to be a refence proving it)
 
 ## Detection
 
-How does one detect the exploitation of this vulnerability, or detect its presence.
+How does one detect the exploitation of this finding, or detect its presence.
 
 ## Remediation
 
-What are some of the ways to fix this vulnerability?
+What are some of the ways to fix this finding?
 
 ## References
 
@@ -55,7 +57,7 @@ What are some of the ways to fix this vulnerability?
 
 ## Exploitation
 
-A write up on how this vulnerability can be exploited with demo code or screen shots
+A write up on how this finding can be exploited with demo code or screen shots
 
 
 ```
