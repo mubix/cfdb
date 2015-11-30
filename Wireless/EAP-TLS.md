@@ -1,9 +1,7 @@
 /*
-Title: EAP-TLS (WPA) Only
+Title: WPA EAP-TLS Mode Certificate Only
 Description: Finding when EAP-TLS is in a mode that only requires a client certificate be present.
 */
-
-# WPA2 EAP-TLS ONLY
 
 - LAST UPDATED DATE: 2015/11/25
 - LAST UPDATED BY: @mubix
