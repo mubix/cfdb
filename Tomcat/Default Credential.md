@@ -23,10 +23,17 @@ for a vulnerability to have one which is beyond the scope of this database.
 ## Detection
 
 How does one detect the exploitation of this vulnerability, or detect its presence.
+username/password
+tomcat/tomcat
+both/tomcat
+role1/tomcat
+manager/manager
+admin/admin
+
 
 ## Remediation
 
-What are some of the ways to fix this vulnerability?
+Default accounts should be disabled or have their password  reset.
 
 ## References
 
