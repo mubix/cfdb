@@ -1,5 +1,5 @@
 /*
-Title: Tomcat :: Default Login Credentials
+Title: Tomcat Manager :: Default Login Credentials
 Description: Search engine meta data about the finding
 */
 
