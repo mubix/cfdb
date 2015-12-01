@@ -1,4 +1,7 @@
-# WPAD Enabled
+/*
+Title: WPAD Enabled
+Description: WPAD proxy setting found enabled on a host
+*/
 
 - LAST UPDATED DATE: 2015/11/25
 - LAST UPDATED BY: @mubix

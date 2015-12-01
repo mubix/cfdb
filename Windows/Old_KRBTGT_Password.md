@@ -1,4 +1,7 @@
-# Old KRBTGT Account Password
+/*
+Title: Old KRBTGT Password
+Description: Search engine meta data about the finding
+*/
 
 - LAST UPDATED DATE: 2015/11/25
 - LAST UPDATED BY: @mubix
