@@ -1,5 +1,5 @@
 /*
-Title: XSS :: Stored
+Title: XSS : Stored
 Description: Search engine meta data about the finding
 */
 

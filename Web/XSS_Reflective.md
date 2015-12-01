@@ -1,5 +1,5 @@
 /*
-Title: XSS :: Reflective
+Title: XSS : Reflective
 Description: Search engine meta data about the finding
 */
 
