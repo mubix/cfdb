@@ -1,4 +1,7 @@
-# Reflective Cross-site Scripting
+/*
+Title: XSS :: Reflective
+Description: Search engine meta data about the finding
+*/
 
 - LAST UPDATED DATE: 2015/11/25
 - LAST UPDATED BY: @mubix

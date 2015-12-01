@@ -1,4 +1,7 @@
-# Vulnerability Title
+/*
+Title: XSS :: Stored
+Description: Search engine meta data about the finding
+*/
 
 - LAST UPDATED DATE: 2015/11/25
 - LAST UPDATED BY: @mubix

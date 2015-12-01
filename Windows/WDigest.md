@@ -1,4 +1,7 @@
-# WDigest Clear-Text Password Storage Enabled
+/*
+Title: WDigest Enabled
+Description: WDigest Clear-Text Password Storage Enabled
+*/ 
 
 - LAST UPDATED DATE: 2015/11/25
 - LAST UPDATED BY: @mubix

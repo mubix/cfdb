@@ -1,4 +1,7 @@
-# License
+/*
+Title: Licence
+Description: Search engine meta data about the finding
+*/
 
 Applies to all files within this repository
 

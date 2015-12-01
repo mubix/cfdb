@@ -1,4 +1,7 @@
-# Contributing to the CFDB
+/*
+Title: How to Contribute
+Description: How to contribute to the CFDB
+*/
 
 If you wish to contribute, you can do so in a couple ways:
 

@@ -1,4 +1,7 @@
-# Default Tomcat Management Credentials
+/*
+Title: Tomcat :: Default Login Credentials
+Description: Search engine meta data about the finding
+*/
 
 - LAST UPDATED DATE: 2015/11/25
 - LAST UPDATED BY: @mubix

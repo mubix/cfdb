@@ -1,3 +1,8 @@
+/*
+Title: What is the CFDB?
+Description: Search engine meta data about the finding
+*/
+
 # Common Findings Database
 
 Source: https://github.com/mubix/cfdb
