@@ -1,5 +1,5 @@
 /*
-Title: Finding Title
+Title: Template
 Description: Search engine meta data about the finding
 */
 
