@@ -1,5 +1,5 @@
 /*
-Title: Password Storage Uses Fast Hashing Algorithm
+Title: Password Storage Uses Fast Hashing Algorithm      
 Description: Storing password hashes produced from fast hashing algorithms increases the odds of passwords being cracked.
 */
 
@@ -25,11 +25,10 @@ With the plaintext passwords in hand, the attacker is highly likely to use the i
 Detection of such a vulnerability is exceedingly simple.  Determine if the algorithms your service uses to hash passwords is a fast or slow hashing algorithm (if it is a hashing algorithm at all).  
 
 Examples of fast hashing algorithms are as follows:
-
-	*[SHA-1](https://en.wikipedia.org/wiki/SHA-1)
-	*[MD-5](https://en.wikipedia.org/wiki/MD5)
-	*[SHA-2](https://en.wikipedia.org/wiki/SHA-2)
-	*[LM](https://en.wikipedia.org/wiki/LM_hash)
+*	[SHA-1](https://en.wikipedia.org/wiki/SHA-1)
+*	[MD-5](https://en.wikipedia.org/wiki/MD5)
+*	[SHA-2](https://en.wikipedia.org/wiki/SHA-2)
+*	[LM](https://en.wikipedia.org/wiki/LM_hash)
 
 If access to the application is limited for the purposes of ascertaining the the name of the algorithm used, it is often possible to determine the algorithm that generated a hash by looking at the hash itself.
 
@@ -40,10 +39,9 @@ One such tool capable of performing this analysis to a limited extent is John th
 Remediation is simple.  One should upgrade any systems capable of receiving such an upgrade, to slow hashing algorithms. 
 
 Examples of which are as follows: 
-
-	*[BCrypt](https://en.wikipedia.org/wiki/Bcrypt)
-	*[Crypt](https://en.wikipedia.org/wiki/Crypt_(C))
-	*[PBKDF2](https://en.wikipedia.org/wiki/PBKDF2)
+*	[BCrypt](https://en.wikipedia.org/wiki/Bcrypt)
+*	[Crypt](https://en.wikipedia.org/wiki/Crypt_(C))
+*	[PBKDF2](https://en.wikipedia.org/wiki/PBKDF2)
 
 Another interesting hashing algorithm is [SCrypt](https://en.wikipedia.org/wiki/Scrypt) which uses extensive amounts of memory rather than time in order to limit an attacker's ability to parallel compute when attacking a hash.
 
@@ -51,15 +49,18 @@ If for some reason it is impossible for a system or service to be upgraded from 
 
 An example of a password policy that might mitigate the use of fast hashing algorithm to some extent is as follows:
 
-	*Min-Length:21
-	*Must Contain: Upper/Lower Alpha, Numeric, Special Char
-	*Recommend: Passphrase, not password
+	>>Min-Length:21
+	>>Must Contain: Upper/Lower Alpha, Numeric, Special Char
+	>>Recommend: Passphrase, not password
 
 ## References
 
 http://codahale.com/how-to-safely-store-a-password/
+
 https://security.stackexchange.com/questions/4781/do-any-security-experts-recommend-bcrypt-for-password-storage
+
 https://security.stackexchange.com/questions/15790/why-do-people-still-use-recommend-md5-if-it-is-cracked-since-1996
+
 https://crackstation.net/hashing-security.htm
 
 ## Exploitation
