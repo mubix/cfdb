@@ -27,9 +27,13 @@ Sanitize input that is passed to the system shell from an untrusted source.
 Here are a number of resources to assist you in properly sanitizing data in a number of languages.
 
 [PHP](https://stackoverflow.com/questions/982904/best-way-to-sanitize-exec-command-with-user-inserted-variables) 
+
 [ASP.NET](https://msdn.microsoft.com/en-us/library/ff647397.aspx) 
-[Ruby Rails](https://code.google.com/p/ruby-security/wiki/Guide#Good_ol%27_shell_injection) 
-[Java](https://www.securecoding.cert.org/confluence/display/java/IDS07-J.+Sanitize+untrusted+data+passed+to+the+Runtime.exec()+method) 
+
+[Ruby Rails](https://code.google.com/p/ruby-security/wiki/Guide#Good_ol%27_shell_injection)
+
+[Java](https://www.securecoding.cert.org/confluence/display/java/IDS07-J.+Sanitize+untrusted+data+passed+to+the+Runtime.exec()+method)
+
 [Python/Ruby](http://blog.littleimpact.de/index.php/2008/08/11/avoiding-shell-injection-in-ruby-python-and-php/)
 
 Input sanitization is accomplished by removing/escaping special characters from user supplied input.  Or by properly quoting the user supplied input.
@@ -61,16 +65,16 @@ if(isset($_GET['ip'])) {
 ```
 The PHP code above is vulnerable to command injection since it does not sanitize any input.
 
-Here is what the ping form might look like with a user supplied IP to ping.
+**Here is what the ping form might look like with a user supplied IP to ping.**
 ![injection](../Assets/Web/injection_0.png)
 
-Once the user submits the form the site takes the IP parameter and drops it to the command line where it executes the command above.
+**Once the user submits the form the site takes the IP parameter and drops it to the command line where it executes the command above.**
 ![injection](../Assets/Web/injection_1.png)
 
-However if the user was to supply a command seperator as seen here (Linux command seperator) they would be able to execute arbitrary commands, not just ping.
+**However if the user was to supply a command seperator as seen here (Linux command seperator) they would be able to execute arbitrary commands, not just ping.**
 ![injection](../Assets/Web/injection_2.png)
 
-And the results...
+**And the results...**
 ![injection](../Assets/Web/injection_3.png)
 
 As you can see, exploitation is quite simple in a basic scenario like this.

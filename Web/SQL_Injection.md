@@ -73,16 +73,16 @@ The above PHP code is vulnerable to SQLi.  It doesn't attempt to escape or remov
 
 It also does not use parameterized queries to wrap the user supplied input inside of quotes, forcing them to stay inside a specific parameter.
 
-A regular query would look like this.
+**A regular query would look like this.**
 ![SQLi](../Assets/Web/SQLi_0.png)
 
-Returning the expected result.
+**Returning the expected result.**
 ![SQLi](../Assets/Web/SQLi_1.png)
 
-However, an attacker can modify the command.
+**However, an attacker can modify the command.**
 ![SQLi](../Assets/Web/SQLi_2.png)
 
-And get every single username in the database dumped.
+**And get every single username in the database dumped.**
 ![SQLi](../Assets/Web/SQLi_3.png)
 
 As you can see, it doesn't take much for an attacker to exploit SQLi when presented with a vulnerable application.  
