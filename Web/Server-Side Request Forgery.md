@@ -20,8 +20,8 @@ The application takes a URL from the user and retrieves the contents of the URL 
 ## Detection
 
 1) Browse the target application using an intercepting proxy (Burp, Fiddler, ZAP, etc). Determine if the following conditions apply:
-    - The target application is accepting a URL from you.  Ex: www.thirdpartysite.com
-    - The target application is displaying part or all of the result back to you.
+  - The target application is accepting a URL from you.  Ex: www.thirdpartysite.com
+  - The target application is displaying part or all of the result back to you.
 
 2) If both conditions apply, look at your proxy logs.  If you do not see the request to the resource (www.thirdpartysite.com) in your proxy logs, but you see the content on the page, this indicates that the content returned to you has been requested by the server itself on your behalf. This behavior indicates the application is vulnerable to SSRF.    
 
@@ -45,12 +45,12 @@ Rather than proxying requests on behalf of users, the application should have th
 Once you have determined that the application is vulnerable to SSRF, the vulnerability can be exploited in many different ways.
 - Manually testing SSRF using a browser (GET Requests), or something like Burp Repeater (POST Requests)
   - The level of risk you can demonstrate depends on how much you know about the environment.  
-  - Is the vulnerable application hosted on a service that uses a metadata service (ex: http://169.254.169.254)? 
+  - Is the vulnerable application hosted on a service that uses a metadata service (ex: http://169.254.169.254)?
     - If so, pull up the reference documents above and make some requests to valid metadata service endpoints for your respective service. 
-    - EC2: http://52.91.104.242/?url=169.254.169.254/latest/dynamic/instance-identity/document
+    - EC2: http://www.example.com/?url=169.254.169.254/latest/dynamic/instance-identity/document
 - To discover services, exploit SSRF to perform a XSPA.  One simple way to do this is to use Burp Intruder. 
   - Send the initial Request to Burp Intruder
-  - For the URL, use http://uri:port format, and make the port the position
+  - For the URL, use http://host:port format, and make the port the position
   - For the payload, enter the port numbers you want to test (only TCP works)
   - Start the attack. 
     - Pay attention to the response times for each requested port. You should be able to infer which ports are open and which ports are closed based on the response times. Quicker times are open ports, longer times are closed ports (they timed out before the client gave up). 
