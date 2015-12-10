@@ -24,16 +24,16 @@ for a vulnerability to have one which is beyond the scope of this database.
 
 How does one detect the exploitation of this vulnerability, or detect its presence.
 username/password
-tomcat/tomcat
-both/tomcat
-role1/tomcat
-manager/manager
-admin/admin
+-tomcat/tomcat
+-both/tomcat
+-role1/tomcat
+-manager/manager
+-admin/admin
 
 
 ## Remediation
 
-Default accounts should be disabled or have their password  reset.
+Default accounts should be disabled or have their password reset.
 
 ## References
 
@@ -44,5 +44,4 @@ Default accounts should be disabled or have their password  reset.
 
 ## Exploitation
 
-A write up on how this vulnerability can be exploited with demo code or screen shots
-
+The tomcat management console can be accessed by navigating to the url: http://x.x.x.x:8080/manager
