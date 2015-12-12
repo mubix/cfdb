@@ -22,13 +22,14 @@ for a vulnerability to have one which is beyond the scope of this database.
 
 ## Detection
 
-How does one detect the exploitation of this vulnerability, or detect its presence.
-username/password
--tomcat/tomcat
--both/tomcat
--role1/tomcat
--manager/manager
--admin/admin
+Default credentials can be tried by authenticating witht the http Tomcat login. The list below contains default Tomcat credentials.
+
+**username/password**
+- tomcat/tomcat
+- both/tomcat
+- role1/tomcat
+- manager/manager
+- admin/admin
 
 
 ## Remediation
