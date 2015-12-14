@@ -22,11 +22,19 @@ for a vulnerability to have one which is beyond the scope of this database.
 
 ## Detection
 
-How does one detect the exploitation of this vulnerability, or detect its presence.
+Default credentials can be tried by authenticating witht the http Tomcat login. The list below contains default Tomcat credentials.
+
+**username/password**
+- tomcat/tomcat
+- both/tomcat
+- role1/tomcat
+- manager/manager
+- admin/admin
+
 
 ## Remediation
 
-What are some of the ways to fix this vulnerability?
+Default accounts should be disabled or have their password reset.
 
 ## References
 
@@ -37,5 +45,4 @@ What are some of the ways to fix this vulnerability?
 
 ## Exploitation
 
-A write up on how this vulnerability can be exploited with demo code or screen shots
-
+The tomcat management console can be accessed by navigating to the url: http://x.x.x.x:8080/manager
