@@ -31,9 +31,11 @@ dot-dot-slash ("../") notation.  Depending on the starting directory, several do
 directory.
 
 Example #1: Linux password file
+
 http://www.example.com/profile.php?user=../../../../../etc/passwd
 
 Example #2: Window.ini
+
 http://www.example.com/display.asp?page=../../../../../Windows/system.ini
 
 ### Windows Web Servers
@@ -45,6 +47,7 @@ If the target web server is running on Windows, it may be necssary to use back s
 In some instances, it may be possible to specify the absolute path of the file.
 
 Example #3: Linux password file via absolute path traversal
+
 http://www.example.com/profile.php?user=/etc/passwd
 
 ### Encoding
@@ -53,9 +56,11 @@ During testing, it may appear that the web server ACLs and input sanitization ar
 also include requests using character encoding to bypass input sanitization routines in the application.
 
 Encoding Example #1:
+
 http://www.example.com/profile.php?user=..%2f..%2f..%2f..%2f..%2fetc%2fpasswd
 
 Encoding Example #2:
+
 http://www.example.com/profile.php?user=%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd
 
 ### Overwriting files
