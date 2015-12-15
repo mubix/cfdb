@@ -82,7 +82,9 @@ should be employed using a whitelist filter.
 https://www.owasp.org/index.php/Path_Traversal
 https://www.owasp.org/index.php/Testing_Directory_traversal/file_include_(OTG-AUTHZ-001)
 https://cwe.mitre.org/data/definitions/22.html
+
 https://cwe.mitre.org/data/definitions/23.html
+
 https://cwe.mitre.org/data/definitions/36.html
 
 ## Exploitation
