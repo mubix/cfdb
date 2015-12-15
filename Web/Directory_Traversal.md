@@ -38,7 +38,7 @@ http://www.example.com/display.asp?page=../../../../../Windows/system.ini
 
 ### Windows Web Servers
 
-If the target is a windows web server, it may be necssary to use back slashes ("\") instead of forward slashes.
+If the target web server is running on Windows, it may be necssary to use back slashes ("\") instead of forward slashes.
 
 ### Absolute Path Traversal
 
