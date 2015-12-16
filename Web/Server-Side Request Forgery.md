@@ -1,6 +1,6 @@
 /*
 Title: Server-Side Request Forgery (SSRF)
-Description: Search engine meta data about the finding
+Description: Server-Side Request Forgery, SSRF, CWE-918, CWE-441, A1-Injection
 */
 
 - LAST UPDATED DATE: 12/7/2015
