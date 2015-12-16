@@ -1,4 +1,3 @@
-```
 /*
 Title: Weak SSL Configurations
 Description: Availability of weak encryption (e.g. DES, RC4, NULL) and hash (e.g. MD4, MD2) algorithms can make SSL/TLS 
@@ -53,4 +52,3 @@ examples of the algorithms to consider for use.  Servers should be configured to
     iptables -t nat -A PREROUTING -p tcp --destination-port 443 -j REDIRECT --to-ports <$listenPort>
 3. Use proxy tool (e.g. mitmproxy) to intercept the connection and alter SSL Handshake so client only requests weaker
 versions of SSL and/or weaker ciphers (configuration will vary depending on the tool(s) used.
-```
