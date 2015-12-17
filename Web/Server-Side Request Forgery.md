@@ -26,10 +26,10 @@ The application takes a URL from the user and retrieves the contents of the URL 
 2) If both conditions apply, look at your proxy logs.  If you do not see the request to the resource (www.thirdpartysite.com) in your proxy logs, but you see the content on the page, this indicates that the content returned to you has been requested by the server itself on your behalf. This behavior indicates the application is vulnerable to SSRF.    
 
 An intentionally vulnerable demo application requesting a page on behalf of the user:
-![](imgs/web/ssrf1.png)
+![](imgs/ssrf1.png)
 
 Requesting a webpage that shows the User-Agent and IP address of the requester:
-![](imgs/web/ssrf2.png)
+![](imgs/ssrf2.png)
 
 ## Remediation
 
@@ -64,10 +64,10 @@ Once you have determined that the application is vulnerable to SSRF, the vulnera
   - You could even run a tool like dirbuster or the http-enum NSE via SSRF. 
 
 Exploiting SSRF to query the Amazon EC2 Metadata service:
-![](imgs/web/ssrf3.png)
+![](imgs/ssrf3.png)
 
 Exploiting SSRF to query Amazon EC2 instance user data:
-![](imgs/web/ssrf4.png)
+![](imgs/ssrf4.png)
 
 Exploiting SSRF with Burp Intruder and a word list to query a second internal host that is not directly accessible to the attacker.  Note how request 3 is a different size than all of the other requests. That is because for all of the other requests, a "page not found" message was sent:
-![](imgs/web/ssrf5.png)
+![](imgs/ssrf5.png)
