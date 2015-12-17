@@ -70,4 +70,5 @@ Exploiting SSRF to query Amazon EC2 instance user data:
 ![](imgs/ssrf4.png)
 
 Exploiting SSRF with Burp Intruder and a word list to query a second internal host that is not directly accessible to the attacker.  Note how request 3 is a different size than all of the other requests. That is because for all of the other requests, a "page not found" message was sent:
+
 ![](imgs/ssrf5.png)
