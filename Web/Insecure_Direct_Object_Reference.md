@@ -1,4 +1,3 @@
-```
 /*
 Title: Insecure Direct Object Reference
 Description: Directly access application objects (files, database records, messages, etc.) owned by other users
@@ -54,4 +53,5 @@ http://blog.attify.com/2015/05/26/offensive-security-oscp-student-control-panel-
 2. Enumerate objects using BurpSuite Intruder or similar methods
 3. Determine if objects are owned by another user or should be referenceable by requester
 
+```
 ```
