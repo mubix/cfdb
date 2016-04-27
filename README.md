@@ -22,3 +22,4 @@ Other awesome projects along the same lines:
 - TECAPI List of Attack Vectors: http://tecapi.com/
 - VULNDB User, contributor and developer friendly vulnerability database: https://github.com/vulndb/data
 - Vulnerability Reporting Database by @calebwatt15: https://github.com/calebwatt15/vrdb
+- Veris Community Database: https://github.com/vz-risk/VCDB
