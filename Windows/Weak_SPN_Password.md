@@ -34,8 +34,8 @@ SecurityKey          : System.IdentityModel.Tokens.InMemorySymmetricSecurityKey
 
 An attacker can use the SPN services to request tickets for all of the SPNs listed in the domain and attempt to crack the passwords for all of the users the services are running under. If the SPN services are running under a user context, and the attacker is able to brute force crack the password for that user, the attacker can then utilize that password in any way that user has permissions for.
 
-- Aquire list of services running on a particular host
-- Aquire Kerberos tickets with the context of the user running the service
+- Acquire list of services running on a particular host
+- Acquire Kerberos tickets with the context of the user running the service
 - Compromise a domain based on the level of the user running the SPN service (Domain Admin accounts have been used to run Services in the past)
 
 ## Detection
