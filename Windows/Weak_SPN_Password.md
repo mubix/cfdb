@@ -45,7 +45,7 @@ Because this is standard usage of Active Directory it blends into normal daily t
 ## Remediation
 
 - Use Managed Service Accounts if possible. They are automatically restricted to a single machine (will not work for cluster services), and change their password on a regular basis much like computer accounts.
-- Insure that any service accounts have long, strong passwords (20 character+)
+- Ensure that any service accounts have long, strong passwords (20 character+)
 
 ## References
 
