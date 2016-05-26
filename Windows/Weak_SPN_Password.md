@@ -49,8 +49,8 @@ Because this is standard usage of Active Directory it blends into normal daily t
 
 ## References
 
-- [Service Principal Names](https://msdn.microsoft.com/en-us/library/ms677949(v=vs.85\).aspx)
-- [Managed Service Accounts](https://technet.microsoft.com/en-us/library/dd560633(v=ws.10\).aspx)
+- [Service Principal Names](https://msdn.microsoft.com/en-us/library/ms677949(v=vs.85%29.aspx)
+- [Managed Service Accounts](https://technet.microsoft.com/en-us/library/dd560633(v=ws.10%29.aspx)
 - [Cracking Kerberos TGS Tickets Using Kerberoast - Exploiting Kerberos to Compromise the Active Directory Domain - Sean Metcalf - ADSecurity.org](https://adsecurity.org/?p=2293)
 
 ## Exploitation
